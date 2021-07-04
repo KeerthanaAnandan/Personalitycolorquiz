@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Personality Color Quiz</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+<!--aos-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mailchimp.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+    <style>
+      /*.link{
+        color: #b69560;
+        text-decoration: #b69560;
+      }*/
+      .extra{
+        margin: 30px;
+        font-size: 18px;
+       text-align: center;
+        
+        line-height: 40px;
+      }
+     
+      #headone{
+        color :#e48a7c;
+        text-decoration: #000;
+        text-align: center;
+        font-size:20px !important;
+       
+      }
+      #iamhere{
+        margin: 100px;
+        margin-top:-80px;
+      }
+      #iamhere > a > img{
+        width: 400px;
+        height: 350px;
+      }
+      .highlight_red{
+        color: #000;
+        font-size:larger;
+      }
+      .btn-last{
+        background-color: #e48a7c;
+        display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  margin: 1.5rem;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+      }
+      .btn-last:hover{
+        background-color: #d30f50;
+
+      }
+      #showcase .points {
+        font-size: 37px;
+        font-weight: bolder;
+      }
+      #showcase .msghere .prevscore {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .logo {
+        width: 100%;
+      }
+
+      .logo img {
+        margin-left: 10px;
+        cursor: pointer;
+      }
+      @media (max-width: 540px) {
+        #iamhere > a > img{
+        width: 100px;
+        height: 100px;
+      }
+        .logo img {
+          width: 20%;
+        }
+        .extra{
+          font-size: smaller;
+          line-break: loose;
+          line-height: 20px;
+        }
+        #iamhere{
+        margin: 70px;
+        margin-top:-30px;
+        font-weight: smaller;
+      }
+      
+      #headone{
+       font-size:smaller; 
+       
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <!--navbar
+    <nav id="navbar" class="navfull">
+      <h1 class="logo">
+        <a href="index.html"><img src="assets/logo.png" width="15%" /></a>
+      </h1>
+    </nav>
+    <br /><br /><br /> <br/> <br/><br /><br /> <br/> -->
+    <div id="showcas" data-aos="fade-down">
+      <div class="bucket">
+        <div class="showcase-content" id="bucket">
+          <h1 id="headone">Well Done!!</h1>
+          <h1 id="headone">We all have a combination of all four true colors, however, most of us have a dominant color that represents our authentic selves.</h1>
+          <br><br>
+          <div class="firsthide"  >
+         
+           <img src="./Assets/green1.png" width="50%"> 
+          </div>
+          <div class="secondhide" >
+            <img src="./Assets/orange.jpg" width="50%"> 
+           </div>
+           <div class="thirdhide" >
+            <img src="./Assets/gold.jpg" width="50%"> 
+           </div>
+           <div class="fourthhide" >
+            <img src="./Assets/blue.jpg" width="50%"> 
+           </div>
+          <br><br>
+          <!-- <h1 class="headmsg" id="headone" ></h1> -->
+        
+          <!-- <br />
+          <h1><span class="points"></span></h1>
+          <br />--> 
+          <br />
+          <p class="msghere"></p>
+          <!-- <br><br>
+          <h1 class="headmsgs" id="headone"></h1>
+          <p class="msdhere"></p> -->
+         <!-- <a class="btn-last" href="index.html">Start over</a>-->
+        </div>
+      </div>
+      <!----------------------------rings---------------------------- -->
+    <!-- <div class="firsthide" id="iamhere">
+
+    
+             <h1 class="headmsg" id="headone"  >Some of the Jwelery that might boost your confidence</h1>
+
+             <a href="https://kmaejewelry.com/collections/ring"><img src="./Assets/r11.png" class="ee" alt=""></a>
+             <a href="https://kmaejewelry.com/collections/ring"><img src="./Assets/r12.jpg" class="ee" alt=""></a>
+             <a href="https://kmaejewelry.com/collections/ring"><img src="./Assets/r13.png" class="ee" alt=""></a>
+             <a href="https://kmaejewelry.com/collections/ring"><img src="./Assets/r14.png" class="ee" alt=""></a>
+           
+
+             <a href="https://kmaejewelry.com/collections/necklace/"> <img src="./Assets/r1.jpg" class="ee" alt=""></a>
+             <a href=" https://kmaejewelry.com/collections/bracelet"> <img src="./Assets/r21.jpg" class="ee" alt=""></a>
+             <a href="https://kmaejewelry.com/collections/hand-jewelry"><img src="./Assets/r31.jpg" class="ee" alt=""></a>
+             <a href=" https://kmaejewelry.com/collections/"><img src="./Assets/r41.jpg" class="ee" alt=""></a>
+             <a href="https://kmaejewelry.com/collections/earring">  <img src="./Assets/r51.jpg" class="il" alt=""></a>
+          
+           
+    </div>
+    ----------------------- earings --------------------------->
+    <!--<div class="secondhide" id="iamhere">
+  
+      <h1 class="headmsg" id="headone"  >Some of the Jwelery that might boost your confidence</h1>
+      <br>
+
+<a href="https://kmaejewelry.com/collections/earring"><img src="./Assets/r51.jpg" alt=""></a>
+<a href="https://kmaejewelry.com/collections/earring"><img src="./Assets/r52.jpg" alt=""></a>
+<a href="https://kmaejewelry.com/collections/earring"><img src="./Assets/r53.jpg" alt=""></a>
+<a href="https://kmaejewelry.com/collections/earring"><img src="./Assets/r54.jpg" alt=""></a>
+
+
+<a href="https://kmaejewelry.com/collections/necklace/"> <img src="./Assets/r2.jpg" class="ee" alt=""></a>
+<a href="https://kmaejewelry.com/collections/ring"><img src="./Assets/r12.jpg" class="ee" alt=""></a>
+<a href=" https://kmaejewelry.com/collections/bracelet"> <img src="./Assets/r22.jpg" class="ee" alt=""></a>
+<a href="https://kmaejewelry.com/collections/hand-jewelry"><img src="./Assets/r32.jpg" class="ee" alt=""></a>
+<a href=" https://kmaejewelry.com/collections/"><img src="./Assets/r42.jpg" class="ee" alt=""></a>
+
+
+
+
+</div>
+----------------------- necklace --------------------------->
+<!--<div class="thirdhide" id="iamhere">
+  
+  <h1 class="headmsg" id="headone"  >Some of the Jwelery that might boost your confidence</h1>
+  <br>
+
+  <a href="https://kmaejewelry.com/collections/necklace/"> <img src="./Assets/r1.jpg" class="ee" alt=""></a>
+  <a href="https://kmaejewelry.com/collections/necklace/"> <img src="./Assets/r2.jpg" class="ee" alt=""></a>
+  <a href="https://kmaejewelry.com/collections/necklace/"> <img src="./Assets/r3.jpg" class="ee" alt=""></a>
+  <a href="https://kmaejewelry.com/collections/necklace/"> <img src="./Assets/r4.jpg" class="ee" alt=""></a>
+
+
+
+
+  <a href="https://kmaejewelry.com/collections/ring"><img src="./Assets/r13.png" class="sam" alt=""></a>
+  <a href=" https://kmaejewelry.com/collections/bracelet"> <img src="./Assets/r23.jpg" class="sam" alt=""></a>
+  <a href="https://kmaejewelry.com/collections/hand-jewelry"><img src="./Assets/r33.jpg" class="sam" alt=""></a>
+  <a href=" https://kmaejewelry.com/collections/"><img src="./Assets/r43.jpg" class="sam" alt=""></a>
+  <a href="https://kmaejewelry.com/collections/earring"><img src="./Assets/r53.jpg" class="sam" alt=""></a>
+</div>
+----------------------- bracelets --------------------------->
+<!--<div class="fourthhide" id="iamhere">
+  
+  <h1 class="headmsg" id="headone"  >Some of the Jwelery that might boost your confidence</h1>
+  <br>
+  <a href=" https://kmaejewelry.com/collections/bracelet"><img src="./Assets/r21.jpg" class="sa" alt=""></a>
+  <a href=" https://kmaejewelry.com/collections/bracelet"><img src="./Assets/r22.jpg" class="sa" alt=""></a>
+  <a href=" https://kmaejewelry.com/collections/bracelet"><img src="./Assets/r23.jpg" class="sa" alt=""></a>
+  <a href=" https://kmaejewelry.com/collections/bracelet"><img src="./Assets/r24.jpg" class="sa" alt=""></a>
+
+
+  
+    <a href="https://kmaejewelry.com/collections/necklace/"> <img src="./Assets/r4.jpg" class="sa" alt=""></a>
+<a href="https://kmaejewelry.com/collections/ring"> <img src="./Assets/r14.png" class="sa" alt=""></a>
+
+<a href="https://kmaejewelry.com/collections/hand-jewelry"><img src="./Assets/r34.jpg" class="sa" alt=""></a>
+<a href=" https://kmaejewelry.com/collections/"> <img src="./Assets/r44.jpg" class="sa" alt=""></a>
+<a href="https://kmaejewelry.com/collections/earring">    <img src="./Assets/r54.jpg" class="sa" alt=""></a>
+</div>
+------------------------ anklets --------------------------->
+<!--<div class="fifthhide" id="iamhere">
+  
+  <h1 class="headmsg" id="headone"  >Some of the Jwelery that might boost your confidence</h1>
+  <br>
+
+  <a href=" https://kmaejewelry.com/collections/"><img src="./Assets/r41.jpg" class="ee" alt=""></a>
+  <a href=" https://kmaejewelry.com/collections/"><img src="./Assets/r42.jpg" class="ee" alt=""></a>
+  <a href=" https://kmaejewelry.com/collections/"><img src="./Assets/r43.jpg" class="ee" alt=""></a>
+  <a href=" https://kmaejewelry.com/collections/"><img src="./Assets/r44.jpg" class="ee" alt=""></a>
+
+
+  <a href="https://kmaejewelry.com/collections/necklace/"> <img src="./Assets/r3.jpg" class="ee" alt=""></a>
+<a href="https://kmaejewelry.com/collections/ring"><img src="./Assets/r13.png" class="ee" alt=""></a>
+<a href=" https://kmaejewelry.com/collections/bracelet"> <img src="./Assets/r23.jpg" class="ee" alt=""></a>
+<a href="https://kmaejewelry.com/collections/hand-jewelry"><img src="./Assets/r33.jpg" class="ee" alt=""></a>
+
+<a href="https://kmaejewelry.com/collections/earring"><img src="./Assets/r53.jpg" alt=""></a>
+</div>
+    
+    <div  id="iamhere">
+    
+      <h1 class="headmsg" id="headone"  > Here are some other simple techniques that may help you feel better about yourself.</h1>
+   
+     <br>
+
+     <p class="highlight_red"><strong>Recognize what you're good at: </strong></p>
+<ul>
+<li> We're all good at something, whether it's cooking, singing, doing puzzles or being a friend. We also tend to enjoy doing the things we're good at, which can help boost your mood.</li>
+</ul>
+<p class="highlight_red"><strong>Build positive relationships: </strong></p>
+     <ul>
+       <li>If you find certain people tend to bring you down, try to spend less time with them, or tell them how you feel about their words or actions.</li>
+       <li>Try to build relationships with people who are positive and who appreciate you.</li>
+     </ul>
+    
+     <p class="highlight_red"><strong>Be kind to yourself:</strong></p>
+     <ul>
+       <li> Being kind to yourself means being gentle to yourself at times when you feel like being self-critical.</li>
+       <li>Think what you'd say to a friend in a similar situation. We often give far better advice to others than we do to ourselves.</li>
+     </ul>
+     
+     <p class="highlight_red"><strong>  Learn to be assertive:</strong></p>
+     <ul>
+       <li>Being assertive is about respecting other people's opinions and needs, and expecting the same from them.</li>
+       <li>One trick is to look at other people who act assertively and copy what they do.</li>
+       <li> It's not about pretending you're someone you're not. It's picking up hints and tips from people you admire and letting the real you come out.</li>
+     </ul>
+     <p class="highlight_red"><strong>Start saying "no":</strong></p>
+     <ul>
+       <li>People with low self-esteem often feel they have to say yes to other people, even when they do not really want to.</li>
+       <li>The risk is that you become overburdened, resentful, angry and depressed.</li>
+       <li> For the most part, saying no does not upset relationships. It can be helpful to keep saying no, but in different ways, until they get the message.</li>
+     </ul>
+     
+    
+     
+   
+     
+     
+    
+     
+     
+     
+    
+     
+    </div> -->
+      <!----------------------------end of new typo---------------------------- 
+      <h1 class="headmsg" id="headone" style="font-size: 3rem;" >NEXT STEPS</h1>-->
+      <a href="https://mailchi.mp/52bf7b5e3290/self-love"><img src="Assets/five.png" style="text-align: center; display: block; margin: auto; width:50%;" alt=""></a>
+      <p class="extra" >
+        &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; Through these products carefully curated just for you, we'd like to help you gather your thoughts and help you realized as well that your thoughts do not define you. Your feelings are valid that's why we're here to help you! <a href="https://mindbodymental.me/shop" class="link colorone"> SHOP NOW!</a> </p> 
+      <div class="flexit" style="display: flex; flex-direction: row; width:100vw; justify-content:center; align-items: center; height:fit-content">
+        <img src="Assets/one.jpg" width="30%"alt="">
+        <img src="Assets/two.jpg" width="30%"alt="">
+        <img src="Assets/three.jpg" width="30%" alt="">
+      </div>
+
+      <br /> <br>
+      <div>
+        <h3 class="sharetext" data-aos="fade-right">Share the results with your friends now!</h3>
+      </div>
+      <div class="share-btn-container">
+        <a href="#" class="facebook-btn">
+          <i class="fab fa-facebook"></i>
+        </a>
+
+        <!-- <a href="#" class="instagram-btn">
+          <i class="fab fa-instagram"></i>
+        </a>-->
+
+        <a href="#" class="linkedin-btn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="#" class="whatsapp-btn">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="#" class="twitter-btn">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+    </div>
+     <footer class="share-btn-area footer" data-aos="fade-left"  data-aos-duration="3000">
+     <div>
+        <h5>Follow us on</h5>
+      </div>
+      <div>
+       <!-- <a href="mailto:support@polardent.co.uk" class="mail-btn"
+          ><i class="fas fa-tiktok"></i
+        ></a> -->
+        <a
+          href="https://www.facebook.com/Mind-Body-Mental-104596958483727"
+          class="facebook-btn"
+          ><i class="fab fa-facebook"></i
+        ></a>
+
+        <a href="https://www.youtube.com/channel/UCRBk3VXFKnGAyanl3pKsbbA" class="twitter-btn"><i class="fab fa-youtube"></i></a>
+        <!-- <a href="https://www.instagram.com/thespiritofagoddess/" class="instagram-btn"><i class="fab fa-instagram"></i></a>
+        & -->
+        <a href="https://www.instagram.com/mindbodymental/" class="instagram-btn"><i class="fab fa-instagram"></i></a>
+      </div>
+      
+    <br/>
+     
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- user info -->
+    <script src="end.js"></script>
+  </body>
+</html>

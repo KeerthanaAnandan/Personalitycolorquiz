@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Personality Color Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!--aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .wrapper{
+        background-color: #fefcf1;
+      }
+      .iamquestion{
+        text-align: center;
+        font-size: 1.4rem;
+      }
+      @media (max-width: 540px) {
+        .logo img{
+          width: 70%;
+        }
+        .iamquestion{
+        text-align: center;
+        font-size: 20px;
+      }
+        }</style>
+  </head>
+  <body >
+     <!--navbar
+     <nav id="navbar">
+      <h1 class="logo">
+        <img src="assets/logo.png" width="100%" />
+      </h1>
+    </nav>
+  -->
+    <div class="wrapper">
+      <div class="quiz">
+        <div class="quiz_header hud">
+          <div class="quiz_user">
+          <div id="hud-item">
+           <!-- <p id="progressText" class="hud-prefix">
+                Question
+            </p>-->
+              <div id="progressBar"  data-aos="fade-right">
+              <div id="progressBarFull"  data-aos="fade-left"   data-aos-delay="200" data-aos-duration="2000">
+              </div>
+          </div>
+         <!--- <div id="hud-item" class="hud-prefix quiz_timer">
+            <span class="time">00:00</span>
+          </div> -->
+          </div>
+          <br>
+      </div>
+        <div class="quiz_body" data-aos="zoom-in" >
+          <div id="questions" onclick="next()">
+            <!-- <ul class="option_group">
+              <li class="option">option 1</li>
+              <li class="option">option 2</li>
+              <li class="option">option 3</li>
+              <li class="option">option 4</li>
+            </ul> -->
+         
+          </div>
+
+         <!---<button class="btn-next" onclick="next()">Next Question</button>-->
+       
+        </div>
+        <p id="progressText" class="hud-itm">
+       
+        </p>
+      </div>
+   
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- site.js -->
+    <script src="./site.js"></script>
+
+ 
+  </body>
+</html>
