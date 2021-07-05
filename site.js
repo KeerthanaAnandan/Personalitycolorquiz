@@ -97,13 +97,13 @@ let questions = [
   },
   {
     id: 10,
-    question: "When your closed one is angry on you, what words are most likely to expected?",
+    question: "Do you  try to please everyone ?",
    
     options: [
-    "Stubborn/ impatient",
-    "Selfish / unrealistic",
-    "Unsocial",
-    "Shy",
+    "Never",
+    "Maybe sometimes",
+    "I don't know'",
+    "Yes always",
     ],
   },
   
